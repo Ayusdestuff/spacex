@@ -12,6 +12,7 @@ import ListItem from './ListItem' ;
 import DetailList from './DetailList' ;
 
 function LaunchList(props) {
+
   const navigation = useNavigation() ;
   const{loading, data} = useQuery(GET_LAUNCHES) ;
 

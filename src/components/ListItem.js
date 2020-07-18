@@ -18,7 +18,7 @@ function ListItem(props) {
       <View style={styles.right} >
        <TouchableOpacity
           style={styles.buttonContainer}
-          onPress={() => navigation.navigate('DetailList', {item:get_launches})}>
+          onPress={() => navigation.navigate('DetailList', {get_launches:flight_number})}>
         <Text style={styles.buttonText}>Launch Details </Text>
        </TouchableOpacity>
       </View>

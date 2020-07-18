@@ -5,7 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import SearchList from './SearchList';
 import LaunchList from './LaunchList' ;
 import DetailList from './DetailList' ;
-import LaunchDetails from './LaunchDetails' ;
+
 import {client} from './client2' ;
 import ListItem from './ListItem' ;
 import {ApolloProvider} from 'react-apollo' ;
